@@ -1,70 +1,121 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🖤soliyana's  persoanal site🖤</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="js/script.js"></script>
 </head>
-<body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>resume</h1>/h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="hobbies.html">hobbies</a>
-    <a href="contact.html">contact</a>
-    <hr>
-    <p>being young doesnt mean one lack the exprience to share. as long as we trive, we succeed. so in the past i have had quite an event full past years. some of them are listed below. </p>
-    <table>
-        <tr>
-            <th>volunteering </th>
+<body class="bg-purple-300 ">
+  <div class="container bg-purple-400 mx-auto ml-8 mr-6">
+    <header class="header bg-purple-300 border-b border-gray-300">
+      <nav class="navbar justify-end py-4">
+        <div class="navbar-brand">
+            <a class="navbar-item " href="#">
+                <img src="./image/photot.jpg" alt="soliyana's pic" class="rounded-full h-12 w-12">
+            </a>
+            <h1 class=" uppercase text-lg font-bold text-center font-bold text-6xl text-indigo-800  ">Resume</h1>
+            <div class="burger lg:hidden">
+            <button id="burgerBtn" class="text-white cursor-pointer">
+            <a class="navbar-burger cursor-pointer " id="burger">
+                <span class="block h-1 w-6 bg-black"></span>
+                <span class="block h-1 w-6 bg-black my-1"></span>
+                <span class="block h-1 w-6 bg-black"></span>
+            </a>
+            </button>
+            </div>
+         </div>
+    
+
+        <div class="navbar-menu hidden  lg:flex justify-end space-x-4 mt-4 ml-6 text-lg" id="navLinks">
+            <div class="navbar-end justify-end">
+                <a href="./home.html" class="navbar-item hover: text-black mr-3">Home</a>
+                <a href="./aboutme.html" class="navbar-item hover:text-black mr-3 ">about me</a>
+                <a href="./hobbies.html" class="navbar-item hover:text-black mr-3">hobbies</a>
+                <a href="./contact.html" class="navbar-item hover:text-black mr-3">contact</a>
+            </div>
+        </div>
+       </nav> 
+      
+      
+    </header>
+   
+    <hr class="my-6">
+    <br>
+    <section class="section">
+      <div class="container flex flex-col items-center justify-center">
+
+      <p class="paragraph ">Being young doesnt mean one lack the exprience to share. as long as we trive, we succeed. so in the past i have had quite an event full past years. some of them are listed below. </p>
+    <br>
+       </div>
+    </section>
+    <div class="table">
+     <table class="table  ml-6 pl-6">
+        <tr class="title italic">
+            <th class="content py-3">volunteering </th>
             <th>skill</th>
             <th>education</th>
             
             
         </tr>
         <tr>
-            <td>
+            <td class="data py-2 pl-6 pr-k">
                 <ul>
-                    <li>selam hitsanat masadegiya</li>
-                    <li>akalgudategnoch mahber</li>
-                    <li>care eplespsy ethiopia</li>
+                    <li class="list py-3">selam hitsanat masadegiya</li>
+                    <li class="list py-3">akalgudategnoch mahber</li>
+                    <li class="list py-3">care eplespsy ethiopia</li>
                 </ul>
             </td>
             <td>
               <ul>
-                <li>basic python programing</li>
-                <li>photography</li>
-                <li>counseling</li>
+                <li class="list py-3">basic python programing</li>
+                <li class="list py-3">photography</li>
+                <li class="list py-3">counseling</li>
                 
               </ul>
            </td>
            <td>
              <ul>
-                <li>cruise school</li>
-                <li>kotebe ssc</li>
-                <li>AAU</li>
+                <li class="list py-3">cruise school</li>
+                <li class="list py-3">kotebe ssc</li>
+                <li class="list py-3">AAU</li>
              </ul>
         </tr>
     </table>
-   <p>care eplespsy ethiopia was one of the best decision of life. getting to understand other people even a little bit was both satisfying and terrifying. neverthless i enjoyed it.</p> 
-   <p>and from my education experience, i had the  happiest and worst memories in kotebe SSC school which was my highschool. i realized then that chasing grades was the start of a great fail and i also learned being your self has its own cost. overall it was the place that matured me up and buffed me for the real world.</p>
-   <svg >
+   </div>
+    <br>
+    <div class="section">
+      <div class="container">
+        <p class="paragraph py-5">Care eplespsy ethiopia was one of the best decision of life. getting to understand other people even a little bit was both satisfying and terrifying. neverthless i enjoyed it.</p> 
+        <p class="paragraph py-5" >And from my education experience, i had the  happiest and worst memories in kotebe SSC school which was my highschool. i realized then that chasing grades was the start of a great fail and i also learned being your self has its own cost. overall it was the place that matured me up and buffed me for the real world.</p>
+   <br>
+   <svg id="larger-image">
 
     <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)"  />
     <circle cx="100" cy="100" r="80" transform="rotate(-90 100 100)" />
-  </svg>
-  <footer>
-    <p>all rights are reserved</p>
-
-    <aside>
-       <address>
-          <i class="fas fa-location"></i> ADDIS ABABA<br>
-          <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-          <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-      
-    </aside>
- </footer>
-
-    
+   </svg>
+   </div>
+   </div>
+   <hr>
+   <footer
+   class="flex flex-col md:flex-row items-center space-y-4 md:space-x-20 bg-purple-300 p-4">
+   <div class="footer-item mr-6">
+       <p class="subtitle">all rights are reserved</p>
+   </div>
+   <div class="footer-item mr-6 ml-6">
+       <p class="subtitle"><i class="fas fa-phone"></i> +251 966798231</p>
+   </div>
+   <div class="footer-item mr-6 ml-6 flex items-center">
+       <p class="subtitle">
+           <img src="./image/download.jpeg" alt="email logo" class="h-4 w-4  mt-8">
+           <a href="mailto:soliyanakewani228@gmail.com"><i
+                   class="fas fa-envelope h-4 w-4 mr-6 ml-6 mb-6"></i>soliyanakewani228@gmail.com</a>
+       </p>
+   </div>
+</footer>
+  </div>  
 </body>
 </html>

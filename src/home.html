@@ -1,33 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🖤soliyana's  persoanal site🖤</title>
- </head>
- <body>
-   <img src="./image/photot.jpg" alt="soliyana's pic">
+    <title>🖤soliyana's  personal site🖤</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+<body class="bg-purple-300">
 
-    <h1>home</h1>
-    <a href="aboutme.html">about me</a>
-   <a href="hobbies.html">hobbies</a>
-   <a href="resume.html">resume</a>
-   <a href="contact.html">contact</a>
-    <hr>
-    <img src="./image/netelapic.jpg" alt="the pic representing soliyana">
-    <p>hello, my name is soliyana kewani. the picture is what i believe expresses me better than words could. i am a typical ethiopian girl bounded within the culture of my country.</p>
-    
-   <footer>
-      <p>all rights are reserved</p>
+<div class="container mx-auto bg-purple-400">
 
-      <aside>
-         <address>
-            <i class="fas fa-location"></i> ADDIS ABABA<br>
-            <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-            <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
+    <header class="header bg-purple-300 border-b border-gray-300">
+        <nav class="navbar justify-end py-4">
+            <div class="navbar-brand">
+                <a class="navbar-item " href="#">
+                    <img src="./image/photot.jpg" alt="soliyana's pic" class="rounded-full h-12 w-12">
+                </a>
+                <h1 class=" uppercase text-lg font-bold text-center font-bold text-6xl text-indigo-800  ">Home</h1>
+                <div class="burger lg:hidden">
+                <button id="burgerBtn" class="text-white cursor-pointer">
+                <a class="navbar-burger cursor-pointer " id="burger">
+                    <span class="block h-1 w-6 bg-black"></span>
+                    <span class="block h-1 w-6 bg-black my-1"></span>
+                    <span class="block h-1 w-6 bg-black"></span>
+                </a>
+                </button>
+                </div>
+             </div>
         
-      </aside>
-   </footer>
+
+            <div class="navbar-menu hidden  lg:flex justify-end space-x-4 mt-4 ml-6 text-lg" id="navLinks">
+                <div class="navbar-end justify-end">
+                    <a href="./aboutme.html" class="navbar-item hover:text-black mr-3 ">about me</a>
+                    <a href="./hobbies.html" class="navbar-item hover:text-black mr-3">hobbies</a>
+                    <a href="./resume.html" class="navbar-item hover:text-black mr-3">resume</a>
+                    <a href="./contact.html" class="navbar-item hover:text-black mr-3">contact</a>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <hr class="my-6">
+
+    <section class="section">
+        <div class="container flex flex-col items-center justify-center">
+            <img src="./image/netelapic.jpg" alt="soliyana's pic" class="rounded-lg mb-6 mt-6 ml-6 mr-6 w-1/2">
+            <p class="text-lg ml-4">Hello, my name is Soliyana Kewani. The picture is what I believe expresses me better than words could. I am a typical Ethiopian girl bound within the culture of my country.</p>
+        </div>
+      </section>
+
+    <hr class="my-6">
+
+    <footer class="flex flex-col md:flex-row  space-x-20 ">
+        <!-- <div class="content flex flex-col"> -->
+            <!-- <div class="columns"> -->
+                <div class="footer-item mr-6">
+                    <p class="subtitle">All rights are reserved</p>
+                </div>
+                <div class="footer-item mr-6 ml-6">
+                    <p class="subtitle "><i class="fas fa-phone"></i> +251 966798231</p>
+                </div>
+                <div class="footer-item mr-6 ml-6">
+                    <p class="subtitle">
+                        <img src="./image/download.jpeg" alt="email logo" class="h-4 w-4 mr-2">
+                        <a href="mailto:soliyanakewani228@gmail.com"><i class="fas fa-envelope h-4 w-4 mr-6 ml-6"></i> soliyanakewani228@gmail.com</a>
+                    </p>
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </footer>
+
+</div>
+
 </body>
 </html>
- 

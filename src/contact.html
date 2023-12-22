@@ -3,35 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🖤soliyana's  persoanal site🖤</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="js/script.js"></script>
 </head>
-<body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>contact</h1>/h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="hobbies.html">hobbies</a>
-    <a href="resume.html">resume</a>
-    <hr>
-    <img src="./image/insta.jpeg" alt="instagram logo">
-    <p> soliyanakewani</p>
-    <img src="./image/download.jpeg" alt="email logo">
-    <p>soliyanakewani228@gmail.com</p>
-    <img src="./image/telegram.png" alt="telegram logo">
-    <p>@amnotlitseningbutkeeptalking</p>
+<body class="bg-purple-300">
+ <div class="container bg-purple-400 mx-auto ml-6">
 
-    <footer>
-        <p>all rights are reserved</p>
-  
-        <aside>
-           <address>
-              <i class="fas fa-location"></i> ADDIS ABABA<br>
-              <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-              <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
-          
-        </aside>
-    </footer>
-
+  <header class="header bg-purple-300 border-b border-gray-300">
     
+    <nav class="navbar justify-end py-4 ">
+        <div class="navbar-brand">
+             
+          <a class="navbar-item" href="#">
+             <img src="./image/photot.jpg" alt="soliyana's pic" class="rounded-full h-12 w-12">
+          </a>
+          <h1 class="  uppercase text-lg font-bold text-center font-bold text-6xl text-indigo-800">contact</h1>
+          <a class="navbar-burger cursor-pointer mr-3" id="burger">
+            <span class="block h-1 w-6 bg-black mr-3"></span>
+            <span class="block h-1 w-6 bg-black my-1 mr-3"></span>
+            <span class="block h-1 w-6 bg-black mr-3"></span>
+        </a>
+        </div>
+         
+        <div class="navbar-menu hidden lg:flex justify-end space-x-4 mt-4 ml-6 text-lg" id="navLinks">
+          <div class="navbar-end justify-end">
+              <a href="./home.html" class="navbar-item mr-3">home</a> 
+              <a href="./aboutme.html" class="navbar-item mr-3">aboutme</a>
+              <a href="./hobbies.html" class="navbar-item mr-3">hobbies</a>
+              <a href="./resume.html"  class="navbar-item mr-3">resume</a>
+               
+              
+              
+           </div>   
+         </div>    
+      </nav>
+        <!-- Navigation for larger screens
+        <nav class="hidden md:flex justify-end py-4">
+            <a href="./home.html"  class="navbar-item">home</a>
+            <a href="./aboutme.html" class="navbar-item">aboutme</a>
+            <a href="./hobbies.html" class="navbar-item">hobbies</a> 
+            <a href="./contact.html" class="navbar-item">contact</a> 
+          </nav> -->
+     
+       </header>
+ <hr>
+  <div class="instagram flex flex-col md:flex-row mb-4">
+    <img src="./image/insta.jpeg" alt="instagram logo" id="logox">
+    <p> soliyanakewani</p>
+</div>
+<div class="email flex flex-col md:flex-row ">
+    <img src="./image/download.jpeg" alt="email logo" id="logox">
+    <p><a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></p>
+</div>
+<div class="telegram flex flex-col md:flex-row ">
+    <img src="./image/telegram.png" alt="telegram logo" id="logox">
+    <p>@amnotlitseningbutkeeptalking</p>
+</div>
+    <hr>
+  
+ 
+    <footer
+   class="flex flex-col md:flex-row items-center space-y-4 md:space-x-20 bg-purple-300 p-4">
+   <div class="footer-item mr-6">
+       <p class="subtitle">all rights are reserved</p>
+   </div>
+   <div class="footer-item mr-6 ml-6">
+       <p class="subtitle"><i class="fas fa-phone"></i> +251 966798231</p>
+   </div>
+   <div class="footer-item mr-6 ml-6 flex items-center">
+       <p class="subtitle">
+           <img src="./image/download.jpeg" alt="email logo" class="h-4 w-4  mt-8">
+           <a href="mailto:soliyanakewani228@gmail.com"><i
+                   class="fas fa-envelope h-4 w-4 mr-6 ml-6 mb-6"></i>soliyanakewani228@gmail.com</a>
+       </p>
+   </div>
+ </footer>
+
+</div>   
 </body>
 </html>

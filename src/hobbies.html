@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <img src="./image/photot.jpg" alt="soliyana's pic">
-    <h1>hobbies</h1>
-    <a href="home.html">home</a>
-    <a href="aboutme.html">aboutme</a>
-    <a href="resume.html">resume</a>
-    <a href="contact.html">contact</a>
-    <hr>
-    <figure>
-        <img src="./image/red2.jpg" alt="red rose">
-        <figcaption>pure symbol of true love</figcaption>
-    </figure>
-    <figure>
-        <img src="./image/firfirtera.jpg" alt="image of the sky and people just walking by">
-        <figcaption>calming weather around campus</figcaption>
+    <title>🖤soliyana's  persoanal site🖤</title>
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+ </head>
+ <body class="bg-purple-300">
+    <div class="container bg-purple-400 mx-auto ml-6">
+        <header class="header bg-purple-300 border-b border-gray-300">
+          <nav class="navbar justify-end py-4 ">
+            <div class="navbar-brand">
+                 
+              <a class="navbar-item" href="#">
+                 <img src="./image/photot.jpg" alt="soliyana's pic" class="rounded-full h-12 w-12">
+              </a>
+              <h1 class="uppercase text-lg font-bold text-center font-bold text-6xl text-indigo-800">hobbies</h1>
+              <a class="navbar-burger cursor-pointer" id="burger">
+                <span class="block h-1 w-6 bg-black"></span>
+                <span class="block h-1 w-6 bg-black my-1"></span>
+                <span class="block h-1 w-6 bg-black"></span>
+            </a>
+              
+            </div>
+         
+             
+            <div class="navbar-menu hidden lg:flex justify-end space-x-4 mt-4 ml-6 text-lg" id="navLinks">
+              <div class="navbar-end justify-end">
+                  <a href="./home.html" class="navbar-item mr-3">homes</a> 
+                  <a href="./aboutme.html" class="navbar-item  mr-3">aboutme</a>
+                  <a href="./resume.html"  class="navbar-item  mr-3">resume</a>
+                  <a href="./contact.html" class="navbar-item  mr-3">contact</a> 
+                  
+                  
+               </div>   
+             </div>    
+          </nav>
+            
+                
+        </header>
+       
+    <hr class="my-6">
+    <section class="section">
+     <div class="container  flex flex-col items-center justify-center">
+      
+        <img src="./image/red2.jpg" alt="red rose" class="rounded-lg mb-6 mt-6 ml-6 mr-6 w-1/2">
+        <figcaption id="caption">pure symbol of true love</figcaption>
+      </div>
+      </section>
+
+      <section class="section ">
+        <div class="container flex flex-col items-center justify-center ">
+         <img src="./image/firfirtera.jpg" alt="image of the sky and people just walking by" class="rounded-lg mb-6 mt-6 ml-6 mr-6 w-1/2">
+         <figcaption id="caption">calming weather around campus</figcaption>
+
+       </div>
+      </section>
     
-    </figure>
-    <figure>
-        <img src="./image/pink.jpg" alt="pink flower">
-        <figcaption>pink hiding in the green</figcaption>
-    </figure>
-    <p>This is me. Anyone who knows me knows how i am opssesed with taking pictures. capturing the moment on my phone make sme happier. even if it is my profession, i still dont see it as work but my freedom. looking back at the photos i took makes me realise it is just a matter of being seen and an angle to be seen that will make things more beautiful.  </p>
-    <p>in addition to photography, poetry is also my all time favorite hobby. i take what the world gave me through pictures and i show the world my insides through my poems. ever since i was little i have diffculty expressing my emotions on the moment of action but after was a beautiful moment of me communicating through my pens with the papers and not real people. and that was how i developed my skill of poetry. i have morethan 100 poems lying one on top of the other in my drawer waiting to be  told to the world who made contribution for their creastion. </p>
-    
-    <audio controls>
-    <source src="audio.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-
-
- </audio>
- <p>the lyric of this holy mezmur is the best one i know so far that i could guarantee 100 the best poem ever. eventhough it is not a poem it self the lyric is more powerfull for me.</p>
- <footer>
-    <p>all rights are reserved</p>
-
-    <aside>
-       <address>
-          <i class="fas fa-location"></i> ADDIS ABABA<br>
-          <i class="fa-solid fa-phone"></i> +251 966798231 <br>
-          <a href="mailto:soliyanakewani228@gmail.com"><i class="fa-solid fa-envelope"></i>soliyanakewani228@gmail.com</a></address>
+      <section class="section ">
+        <div class="container flex flex-col items-center justify-center">  
+          <img src="./image/pink.jpg" alt="pink flower" class="rounded-lg mb-6 mt-6 ml-6 mr-6 w-1/2">
+          <figcaption id="caption">pink hiding in the green</figcaption>
+        </div>
+      </section>
      
-    </aside>
- </footer>
-</body>
+        
+     
+     <section class="section">
+      <div class="container">
+        <p class="paragraph ">This is me. Anyone who knows me knows how i am opssesed with taking pictures. capturing the moment on my phone make sme happier. even if it is my profession, i still dont see it as work but my freedom. looking back at the photos i took makes me realise it is just a matter of being seen and an angle to be seen that will make things more beautiful.  </p>
+        <p class="paragraph ">in addition to photography, poetry is also my all time favorite hobby. i take what the world gave me through pictures and i show the world my insides through my poems. ever since i was little i have diffculty expressing my emotions on the moment of action but after was a beautiful moment of me communicating through my pens with the papers and not real people. and that was how i developed my skill of poetry. i have morethan 100 poems lying one on top of the other in my drawer waiting to be  told to the world who made contribution for their creastion. </p>
+      </div>
+     </section>
+     <section class="section">
+      <div class="container ">
+        <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+      
+
+    
+    <p class=" paragraph">The lyric of this holy mezmur is the best one i know so far that i could guarantee 100 the best poem ever. eventhough it is not a poem it self the lyric is more powerfull for me.</p>
+  </div>
+  </section>
+    <hr>
+    <footer
+    class="flex flex-col md:flex-row items-center space-y-4 md:space-x-20 bg-purple-300 p-4">
+    <div class="footer-item mr-6">
+        <p class="subtitle">all rights are reserved</p>
+    </div>
+    <div class="footer-item mr-6 ml-6">
+        <p class="subtitle"><i class="fas fa-phone"></i> +251 966798231</p>
+    </div>
+    <div class="footer-item mr-6 ml-6 flex items-center">
+        <p class="subtitle">
+            <img src="./image/download.jpeg" alt="email logo" class="h-4 w-4  mt-8">
+            <a href="mailto:soliyanakewani228@gmail.com"><i
+                    class="fas fa-envelope h-4 w-4 mr-6 ml-6 mb-6"></i>soliyanakewani228@gmail.com</a>
+        </p>
+    </div>
+</footer>
+  </div>
+ </body>
 </html>
